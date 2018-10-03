@@ -1,0 +1,9 @@
+# Once you are all set up with the Docker CE, here's where to get started. 
+
+$ docker ps ---> lists the running containers
+$ docker ps -a ---> lists all the containers (which are running and exited as well)
+$ docker images ---> lists the images that are pulled
+$ docker pull <image_name> ---> To pull the image of the container from docker hub
+$ docker run <image_name> ---> This starts the container 
+$ docker stop <container_name> ---> This stops the container 
+$ docker run -d <image_name> ---> The container starts running in the background 
