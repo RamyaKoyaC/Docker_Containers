@@ -12,7 +12,11 @@ $ docker run -d <container_name> sleep 20 ---> The container starts running for 
 $ docker rm <container_name> ---> This is to remove containers, you cna just type in the first two characters of the container ID instead of the whole container ID 
 $ docker exec <container_name> cat/etc/host*release* ---> To execute a command on a container that is already running 
 $ docker rmi <image_id> ---> To remove image/ images 
+
+##Volume Mapping 
 $ docker run -p 80:8080 -v destination path: arrival path <image_name> ---> 80: Docker host port, 8080: Port on which application runs, path where the data will be saved even if the container is killed 
 
+
+$ docker run Ubuntu:17.04 ---> This is to get a particular version instead of the default version 
 
 ## For a force stop of a container the ext code would be Exited (137)
