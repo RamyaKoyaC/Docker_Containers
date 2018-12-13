@@ -7,3 +7,4 @@ $ docker pull <image_name> ---> To pull the image of the container from docker h
 $ docker run <image_name> ---> This starts the container 
 $ docker stop <container_name> ---> This stops the container 
 $ docker run -d <image_name> ---> The container starts running in the background 
+$ docker run -d <container_name> sleep 20 ---> The container starts running for 20 seconds without exiting 
